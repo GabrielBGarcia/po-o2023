@@ -11,7 +11,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.mainClass>com.github.konojoao.poo.t12.application.console.ProgramaCalendario</project.mainClass>
+        <project.mainClass>com.github.GabrielBGarcia.poo.t12.application.console.ProgramaCalendario</project.mainClass>
 
         <tools.dir>/tools</tools.dir>
 
@@ -52,7 +52,7 @@
         <version>3.0.0</version>
     </parent>
 
-    <groupId>com.github.konojoao</groupId>
+    <groupId>com.github.GabrielBGarcia</groupId>
     <artifactId>exemplo</artifactId>
     <packaging>jar</packaging>
     <version>1.0.3</version>
@@ -66,7 +66,7 @@
         necessidades específicas do projeto em questão.
     </description>
 
-    <url>https://github.com/konojoao/poo-2023-01</url>
+    <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -90,7 +90,7 @@
 
     <developers>
         <developer>
-            <id>konojoao</id>
+            <id>GabrielBGarcia</id>
             <name>João Vitor Alves dos Reis</name>
             <email>reis23@discente.ufg.br</email>
             <organization>Instituto de Informática (UFG)</organization>
@@ -99,11 +99,11 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/konojoao/poo-2023-01.git
+        <connection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
         </connection>
-        <developerConnection>scm:git:https://github.com/konojoao/poo-2023-01.git
+        <developerConnection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
         </developerConnection>
-        <url>https://github.com/konojoao/poo-2023-01</url>
+        <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
     </scm>
 
     <dependencies>
@@ -333,7 +333,7 @@
 
             <!-- sonarqube (detalhes em https://www.sonarqube.org/)      -->
             <!-- SonarCloud é instância gratuita empregada pelo projeto  -->
-            <!-- https://sonarcloud.io/dashboard?id=com.github.konojoao%3Aexemplo -->
+            <!-- https://sonarcloud.io/dashboard?id=com.github.GabrielBGarcia%3Aexemplo -->
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
@@ -680,11 +680,11 @@
                         <configuration>
                             <targetClasses>
                                 <param>
-                                    com.github.konojoao.poo.t07.domain.Calendario
+                                    com.github.GabrielBGarcia.poo.t07.domain.Calendario
                                 </param>
                             </targetClasses>
                             <targetTests>
-                                <param>com.github.konojoao.exemplo.*</param>
+                                <param>com.github.GabrielBGarcia.exemplo.*</param>
                             </targetTests>
                         </configuration>
                     </plugin>
