@@ -1,6 +1,6 @@
-package com.github.konojoao.poo.t07;
+package com.github.kamaGabrielBGarciamijr.poo.t07;
 
-public class Livro{
+public class Livro {
     
 }
 

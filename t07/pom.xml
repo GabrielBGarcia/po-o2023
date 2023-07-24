@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <nome.projeto>exercicios</nome.projeto>
+        <nome.projeto>t07</nome.projeto>
 
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.mainClass>com.github.GabrielBGarcia.poo.t07.application.console.ProgramaCalendario</project.mainClass>
+        <project.mainClass>com.github.GabrielBGarcia.poo.t07.application.console.classes</project.mainClass>
 
-        <tools.dir>/tools</tools.dir>
+        <tools.dir>${project.basedir}/tools</tools.dir>
 
         <antrun.version>3.0.0</antrun.version>
         <checkstyle.plugin.versao>3.2.0</checkstyle.plugin.versao>
@@ -53,7 +53,7 @@
     </parent>
 
     <groupId>com.github.GabrielBGarcia</groupId>
-    <artifactId>exemplo</artifactId>
+    <artifactId>t07</artifactId>
     <packaging>jar</packaging>
     <version>1.0.3</version>
 
@@ -66,14 +66,14 @@
         necessidades específicas do projeto em questão.
     </description>
 
-    <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
+    <url>https://github.com/GabrielBGarcia/${nome.projeto}</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
         <url>http://www.inf.ufg.br</url>
     </organization>
 
-    <inceptionYear>2016</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
 
     <licenses>
         <license>
@@ -81,7 +81,7 @@
             </name>
             <comments>A atribuição deve conter, explicitamente, a seguinte
                 linha:
-                Copyright (c) 2016. Fábrica de Software - Instituto de
+                Copyright (c) 2023. Fábrica de Software - Instituto de
                 Informática (UFG)
             </comments>
             <url>https://creativecommons.org/licenses/by/4.0/</url>
@@ -91,19 +91,19 @@
     <developers>
         <developer>
             <id>GabrielBGarcia</id>
-            <name>João Vitor Alves dos Reis</name>
-            <email>reis23@discente.ufg.br</email>
+            <name>Gabriel</name>
+            <email>gabrielnpro@gamil.com</email>
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
+        <connection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
         </connection>
-        <developerConnection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
+        <developerConnection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
         </developerConnection>
-        <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
+        <url>https://github.com/kyriosdata/${nome.projeto}</url>
     </scm>
 
     <dependencies>
@@ -200,7 +200,7 @@
         </pluginManagement>
 
         <!-- Define o nome do arquivo a ser gerado (.jar é acrescentada) -->
-        <finalName>exercicio.jar</finalName>
+        <finalName>${nome.projeto}</finalName>
 
         <plugins>
 
@@ -333,7 +333,7 @@
 
             <!-- sonarqube (detalhes em https://www.sonarqube.org/)      -->
             <!-- SonarCloud é instância gratuita empregada pelo projeto  -->
-            <!-- https://sonarcloud.io/dashboard?id=com.github.GabrielBGarcia%3Aexemplo -->
+            <!-- https://sonarcloud.io/dashboard?id=com.github.kyriosdata%3Aexemplo -->
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
@@ -680,11 +680,11 @@
                         <configuration>
                             <targetClasses>
                                 <param>
-                                    com.github.GabrielBGarcia.poo.t07.domain.Calendario
+                                    com.github.kyriosdata.poo.t07.domain.Calendario
                                 </param>
                             </targetClasses>
                             <targetTests>
-                                <param>com.github.GabrielBGarcia.exemplo.*</param>
+                                <param>com.github.kyriosdata.exemplo.*</param>
                             </targetTests>
                         </configuration>
                     </plugin>
@@ -804,7 +804,7 @@
                                 <configuration>
                                     <includeScope>runtime</includeScope>
                                     <outputDirectory>
-                                        saida/jars/
+                                        ${project.build.directory}/jars/
                                     </outputDirectory>
                                 </configuration>
                             </execution>

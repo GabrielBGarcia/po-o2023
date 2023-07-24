@@ -1,12 +1,17 @@
-package com.github.konojoao.poo.t07;
+package com.github.GabrielBGarcia.poo.t07;
+
+import java.util.TreeSet;
 
 public class Festa {
-    private TreeSet convidados = new TreeSet();
 
-    public void novoConvidado(Convidado c){
-        convidados.add(c);
+
+    private TreeSet<Convidado> convidados = new TreeSet<>();
+
+    public void novoConvidado(Convidado convidado) {
+        convidados.add(convidado);
     }
-    public Festa(Convidado C){
+
+    public Festa(Convidado c) {
         convidados.add(c);
     }
 }
