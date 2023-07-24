@@ -1,6 +1,6 @@
-package java.com.github.GabrielBGarcia.poo.t09;
+package com.github.GabrielBGarcia.poo.t09;
 
-public class Circulo{
+public class Circulo {
     private float x;
     private float y;
     private float raio;

@@ -1,9 +1,7 @@
-package java.com.github.GabrielBGarcia.poo.t09;
+package com.github.GabrielBGarcia.poo.t09;
 
-public class Usuario extends Pessoa{
-
-}
-
-public class Pessoa{
+public class usuario extends Pessoa {
 
 }
+
+
