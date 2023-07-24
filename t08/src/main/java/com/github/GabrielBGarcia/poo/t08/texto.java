@@ -10,4 +10,5 @@ class Paragrafo extends Sentenca{
 
 class Texto extends Paragrafo{
 
+
 }

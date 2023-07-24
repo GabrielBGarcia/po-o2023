@@ -1,6 +1,4 @@
 ## t08
-
-
-Execução das atividades do tópico 07.
+Realização das atividades 7-08
 
 

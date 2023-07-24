@@ -1,12 +1,12 @@
 package com.github.GabrielBGarcia.poo.t08;
 
 class Endereco{
-    String logradouro;
-    String cep;
-    String bairro;
+    private String logradouro;
+    private String cep;
+    private String bairro;
 }
 
-class Escola{
-    Endereco endereco;
-    int capacidadeAlunos;
+public class Escola{
+    private Endereco endereco;
+     private int capacidadeAlunos;
 }

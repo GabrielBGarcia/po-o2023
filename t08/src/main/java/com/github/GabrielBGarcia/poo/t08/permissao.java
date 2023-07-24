@@ -3,15 +3,15 @@ package com.github.GabrielBGarcia.poo.t08;
 public class Permissao{
 }
 
-public class Usuario{
+class usuario{
 }
 
-public class Arquivo{
+class Arquivo{
 private Permissao permissao;
 }
 
-public class Grupo{
+class Grupo{
 private Permissao permissao;
-private Usuario[] usuarios;
+private usuario[] usuarios;
 }
 

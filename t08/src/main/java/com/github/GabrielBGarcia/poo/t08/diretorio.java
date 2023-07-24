@@ -1,9 +1,9 @@
-package com.github.GabrielBGarcia.t08;
+package com.github.GabrielBGarcia.poo.t08;
 
 public class Diretorio{
     Usuario dono;
 }
 
-public class Usuario{
+class Usuario{
    Diretorio autorizado;
 }
