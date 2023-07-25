@@ -6,7 +6,7 @@ class Endereco{
     private String bairro;
 }
 
-public class Escola{
+class Escola{
     private Endereco endereco;
      private int capacidadeAlunos;
 }

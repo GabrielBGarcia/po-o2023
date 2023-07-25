@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <nome.projeto>t08</nome.projeto>
+        <nome.projeto>exercicios</nome.projeto>
 
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.mainClass>com.github.GabrielBGarcia.poo.t08.application.console.minicontexto</project.mainClass>
+        <project.mainClass>com.github.GabrielBGarcia.poo.t08.application.console.ProgramaCalendario</project.mainClass>
 
-        <tools.dir>${project.basedir}/tools</tools.dir>
+        <tools.dir>/tools</tools.dir>
 
         <antrun.version>3.0.0</antrun.version>
         <checkstyle.plugin.versao>3.2.0</checkstyle.plugin.versao>
@@ -53,7 +53,7 @@
     </parent>
 
     <groupId>com.github.GabrielBGarcia</groupId>
-    <artifactId>t08</artifactId>
+    <artifactId>exemplo</artifactId>
     <packaging>jar</packaging>
     <version>1.0.3</version>
 
@@ -66,14 +66,14 @@
         necessidades específicas do projeto em questão.
     </description>
 
-    <url>https://github.com/GabrielBGarcia/${nome.projeto}</url>
+    <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
         <url>http://www.inf.ufg.br</url>
     </organization>
 
-    <inceptionYear>2023</inceptionYear>
+    <inceptionYear>2016</inceptionYear>
 
     <licenses>
         <license>
@@ -81,7 +81,7 @@
             </name>
             <comments>A atribuição deve conter, explicitamente, a seguinte
                 linha:
-                Copyright (c) 2023. Fábrica de Software - Instituto de
+                Copyright (c) 2016. Fábrica de Software - Instituto de
                 Informática (UFG)
             </comments>
             <url>https://creativecommons.org/licenses/by/4.0/</url>
@@ -99,11 +99,11 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
+        <connection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
         </connection>
-        <developerConnection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
+        <developerConnection>scm:git:https://github.com/GabrielBGarcia/poo-2023-01.git
         </developerConnection>
-        <url>https://github.com/kyriosdata/${nome.projeto}</url>
+        <url>https://github.com/GabrielBGarcia/poo-2023-01</url>
     </scm>
 
     <dependencies>
@@ -200,7 +200,7 @@
         </pluginManagement>
 
         <!-- Define o nome do arquivo a ser gerado (.jar é acrescentada) -->
-        <finalName>${nome.projeto}</finalName>
+        <finalName>exercicio.jar</finalName>
 
         <plugins>
 
@@ -333,7 +333,7 @@
 
             <!-- sonarqube (detalhes em https://www.sonarqube.org/)      -->
             <!-- SonarCloud é instância gratuita empregada pelo projeto  -->
-            <!-- https://sonarcloud.io/dashboard?id=com.github.kyriosdata%3Aexemplo -->
+            <!-- https://sonarcloud.io/dashboard?id=com.github.GabrielBGarcia%3Aexemplo -->
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
@@ -680,11 +680,11 @@
                         <configuration>
                             <targetClasses>
                                 <param>
-                                    com.github.kyriosdata.poo.t08.domain.Calendario
+                                    com.github.GabrielBGarcia.poo.t07.domain.Calendario
                                 </param>
                             </targetClasses>
                             <targetTests>
-                                <param>com.github.kyriosdata.exemplo.*</param>
+                                <param>com.github.GabrielBGarcia.exemplo.*</param>
                             </targetTests>
                         </configuration>
                     </plugin>
@@ -804,7 +804,7 @@
                                 <configuration>
                                     <includeScope>runtime</includeScope>
                                     <outputDirectory>
-                                        ${project.build.directory}/jars/
+                                        saida/jars/
                                     </outputDirectory>
                                 </configuration>
                             </execution>

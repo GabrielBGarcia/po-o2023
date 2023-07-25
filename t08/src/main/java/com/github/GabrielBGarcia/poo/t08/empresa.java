@@ -1,9 +1,9 @@
 package com.github.GabrielBGarcia.poo.t08;
-class Empregador{
+
+class PessoaEmpresa{
     public Empresa empregador;
 }
-
-public class Empresa{
-    private Pessoa empregado;
+class EmpresaComEmpregado{
+    public Pessoa empregado;
 
 }

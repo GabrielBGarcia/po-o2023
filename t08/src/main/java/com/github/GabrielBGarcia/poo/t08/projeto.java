@@ -4,8 +4,7 @@ class LinguagemProgramacao{
 
 }
 
-class Projeto{
-
+class ProjetoLinguagens{
     LinguagemProgramacao[] linguagemUsada;
 }
 

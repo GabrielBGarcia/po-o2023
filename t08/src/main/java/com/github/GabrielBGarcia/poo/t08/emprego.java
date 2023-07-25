@@ -1,12 +1,15 @@
 package com.github.GabrielBGarcia.poo.t08;
 
-class Pessoa{
+class PessoaEmpregada{
 }
 
-public class Emprego{
-    public Pessoa empregado;
+class Emprego{
+    private Pessoa empregado;
     private Empresa empregador;
     private float salario;
     private int inicio;
     private int fim;
+}
+
+class Empresa{
 }

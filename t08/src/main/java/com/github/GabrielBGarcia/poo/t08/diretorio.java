@@ -1,9 +1,9 @@
 package com.github.GabrielBGarcia.poo.t08;
 
-public class Diretorio{
-    Usuario dono;
+class Diretorio{
+    private Usuario dono;
 }
 
 class Usuario{
-   Diretorio autorizado;
+   private Diretorio autorizado;
 }

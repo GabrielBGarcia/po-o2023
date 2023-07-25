@@ -4,6 +4,6 @@ class Ponto{
 
 }
 
-public class Curva extends Ponto{
+class Curva extends Ponto{
     private Ponto[] ponto;
 }
