@@ -1,23 +1,23 @@
-package com.github.GabrielBGarcia.poo.t09;
+package java.com.github.GabrielBGarcia.poo.t09.caixeirolista;
 
-class Caixeiro {
+class Caixeiro{
  private Viagem[] viagens;
 }
 
-class Viagem {
+class Viagem{
     private Cidade[] cidades;
     private Pedidos[] pedidos;
 }
 
-class Cidade {
+class Cidade{
     private Armazém[] armazéns;
 }
 
-class Armazém {
+class Armazém{
     private Pedidos[] pedidos;
 }
 
-class Pedidos {
+class Pedidos{
 
 }
 

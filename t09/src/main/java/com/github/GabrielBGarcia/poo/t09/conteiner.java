@@ -1,14 +1,14 @@
-package com.github.GabrielBGarcia.poo.t09;
+package java.com.github.GabrielBGarcia.poo.t09;
 
-public class Conteiner extends Elemento {
+class Conteiner extends Elemento{
     private Conteiner[] conteineres;
     private Objeto[] objetos;
 }
 
-class Elemento {
+class Elemento{
 
 }
 
-class Objeto extends Elemento {
+class Objeto extends Elemento{
 
 }

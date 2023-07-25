@@ -1,15 +1,15 @@
-package com.github.GabrielBGarcia.poo.t09;
+package java.com.github.GabrielBGarcia.poo.t09;
 
-class Cliente {
+class Cliente{
     private Transacao[] transacoes;
 }
 
-public class Transacao {
+class Transacao{
     private Cliente cliente;
     private Fornecedor fornecedor; 
 }
 
- class Fornecedor {
+class Fornecedor{
     private Transacao[] transacoes;
 }
 

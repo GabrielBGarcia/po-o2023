@@ -1,9 +1,9 @@
-package com.github.GabrielBGarcia.poo.t09;
+package java.com.github.GabrielBGarcia.poo.t09;
 
-class Elefante extends Mamifero {
+class Elefante extends Mamifero{
 
 }
 
-public class Mamifero {
+class Mamifero{
 
 }
