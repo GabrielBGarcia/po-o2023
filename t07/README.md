@@ -1,5 +1,4 @@
 ## t07
-
-Execução das atividades do tópico 07.
+Realização das atividades t-07
 
 

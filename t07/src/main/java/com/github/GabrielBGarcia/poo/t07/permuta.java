@@ -1,4 +1,6 @@
-package com.github.GabrielBGarcia.poo.t07;
+package com.github.konojoao.poo.t07;
+
+
 public class Permuta {
 
     public static void permuta(String prefixo, String sequencia) {
@@ -10,5 +12,9 @@ public class Permuta {
                         sequencia.substring(0, i) + sequencia.substring(i + 1));
             }
         }
+    }
+
+    public static void main(String[] args) {
+        permuta("", "abc");
     }
 }

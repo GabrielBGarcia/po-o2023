@@ -1,4 +1,4 @@
 package com.github.GabrielBGarcia.poo.t07;
 
-public class Disciplina {
+public class Derivada extends Base {
 }
